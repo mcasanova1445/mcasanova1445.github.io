@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: mcasanova.me
+Token: 02d20adc2331891b4173f90fbe3c4a3b4e81db877c56cc2e9f88028488f5e73e
