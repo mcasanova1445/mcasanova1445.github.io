@@ -1,1 +1,22 @@
 Contact email: contact@mcasanova.me
+
+<?php
+    $user_agent = $_SERVER['HTTP_USER_AGENT'];
+    $ip_address = $_SERVER["REMOTE_ADDR"];
+    $page_name = $_SERVER["SCRIPT_NAME"];
+    $query_string = $_SERVER["QUERY_STRING"];
+    $current_page = $page_name."?".$query_string;
+
+    echo "Browser: $user_agent";
+    echo "IP: $ip_address";
+    echo "Page: $page_name";
+    echo "Query: $query_string";
+    echo "Current page: $current_page";
+
+    date_default_timezone_set('UTC');
+    $date = date("Y-m-d");
+    $time = date("H:i:s");
+
+    echo "Date: $date";
+    echo "Time: $time";
+?>
